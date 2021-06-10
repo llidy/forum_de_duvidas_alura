@@ -19,7 +19,7 @@ public class AutenticacaoViaTokenFilter extends OncePerRequestFilter{
 	
 		private TokenService tokenService;
 		private UsuarioRepository repository;
-		//private UsuarioRepository repository;
+		//private UsuarioRepository br.com.alura.forum.repository;
 
 		public AutenticacaoViaTokenFilter(TokenService tokenService, UsuarioRepository repository) {
 			this.tokenService = tokenService;
